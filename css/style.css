@@ -1,0 +1,74 @@
+@charset "utf-8";
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header h1 {
+    padding: 0;
+    margin: 0;
+    background-color: #009688;
+    width: 100%;
+    height: 60px;
+    display: inline-block;
+}
+
+header h1 {
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 36px;
+    position: relative;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+header .title {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+section #div01 {
+    width: 960px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+section #div01 .card div h3, p {
+    padding-left: 0;
+    font-size: large;
+}
+
+section #div01 .card div h3 {
+    font-size: 36px;
+    font-weight: 400;
+}
+
+section #div01 img {
+    float: left;
+    width: 35%;
+    margin: 4px;
+    height: 30%;
+}
+
+section #div01 > .card { margin-top: 8px; }
+
+section #div01 .card div {
+    float: left;
+    width: 60%;
+    height: 30%;
+    text-align: left;
+    position: relative;
+    padding-left: 10px;
+}
+
+.card::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
+
+
