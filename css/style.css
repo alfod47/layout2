@@ -1,8 +1,12 @@
 @charset "utf-8";
 
-body {
+
+
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    /* 자동계산 */
 }
 
 header h1 {
@@ -57,10 +61,18 @@ section #div01 > .card { margin-top: 8px; }
 section #div01 .card div {
     float: left;
     width: 60%;
-    height: 30%;
+
     text-align: left;
     position: relative;
     padding-left: 10px;
+}
+
+section #div01 .card div h3 {
+    padding: 15px 0;
+}
+
+section #div01 .card div p {
+    padding: 15px 0;
 }
 
 .card::after {
